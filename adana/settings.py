@@ -83,16 +83,15 @@ WSGI_APPLICATION = 'adana.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
-# postgres://alddasssjqypbi:703f803e393e5b92ff3ae38e54fbbd429ce66ab71ec582384725e75c256874f6@ec2-44-194-92-192.compute-1.amazonaws.com:5432/d93qmsg9u98erg
+# postgres://bbjigbucyglwix:ce557a0b3962fae49ad298bf6668efbecc28cf8a7f807d2e9a1ed71872e48c75@ec2-44-194-92-192.compute-1.amazonaws.com:5432/d7ano1ap7nlb7s
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd93qmsg9u98erg',
+        'NAME': 'd7ano1ap7nlb7s',
         'HOST': 'ec2-44-194-92-192.compute-1.amazonaws.com',
         'PORT': 5432,
-        'USER': 'alddasssjqypbi',
-        'PASSWORD': '703f803e393e5b92ff3ae38e54fbbd429ce66ab71ec582384725e75c256874f6'
+        'USER': 'bbjigbucyglwix',
+        'PASSWORD': 'ce557a0b3962fae49ad298bf6668efbecc28cf8a7f807d2e9a1ed71872e48c75'
     }
 }
 
